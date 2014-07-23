@@ -1,0 +1,23 @@
+<section id="social">
+  <h1>Social</h1> 
+  {% if site.email %}
+    {% if site.email_show_social_link %}
+    <a href="mailto://{{site.email}}" alt="@{{site.email}}"><i class="fa fa-envelope fa-2x"></i></a>
+    {% endif %}
+  {% endif %}
+  {% if site.github_user %}
+    {% if site.github_show_social_link %}
+    <a href="https://github.com/{{site.github_user}}" alt="@{{site.github_user}}"><i class="fa fa-github fa-2x"></i></a>
+    {% endif %}
+  {% endif %}
+  {% if site.linkedin_user %}
+    {% if site.linkedin_show_social_link %}
+    <a href="https://linkedin.com/in/{{site.linkedin_user}}" alt="@{{site.linkedin_user}}"><i class="fa fa-linkedin fa-2x"></i></a>
+    {% endif %}
+  {% endif %}
+  {% if site.twitter_user %}
+    {% if site.twitter_show_social_link %}
+    <a href="https://twitter.com/{{site.twitter_user}}" alt="@{{site.twitter_user}}"><i class="fa fa-twitter fa-2x"></i></a>
+    {% endif %}
+  {% endif %}
+</section>
