@@ -1,5 +1,6 @@
 <section id="social">
   <h1>Social</h1> 
+  <div class="wrapper">
   {% if site.email %}
     {% if site.email_show_social_link %}
     <a href="mailto://{{site.email}}" alt="@{{site.email}}"><i class="fa fa-envelope fa-2x"></i></a>
@@ -20,4 +21,5 @@
     <a href="https://twitter.com/{{site.twitter_user}}" alt="@{{site.twitter_user}}"><i class="fa fa-twitter fa-2x"></i></a>
     {% endif %}
   {% endif %}
+  </div>
 </section>
