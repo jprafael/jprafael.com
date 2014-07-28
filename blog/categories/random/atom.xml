@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Random | João Rafael]]></title>
   <link href="http://jprafael.github.io/blog/categories/random/atom.xml" rel="self"/>
   <link href="http://jprafael.github.io/"/>
-  <updated>2014-07-24T02:30:28+01:00</updated>
+  <updated>2014-07-28T21:46:14+01:00</updated>
   <id>http://jprafael.github.io/</id>
   <author>
     <name><![CDATA[João Rafael]]></name>
@@ -18,7 +18,7 @@
     <link href="http://jprafael.github.io/blog/2014/07/23/hello-world/"/>
     <updated>2014-07-23T20:52:25+01:00</updated>
     <id>http://jprafael.github.io/blog/2014/07/23/hello-world</id>
-    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <content type="html"><![CDATA[<p>Hello everyone! I&rsquo;m João Rafael and I&rsquo;ve just finished boostraping this blog. You can check more about me on the <a href="%20/about">about page</a></p>
 ]]></content>
   </entry>
   
