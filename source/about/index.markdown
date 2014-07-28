@@ -13,11 +13,7 @@ This is Me
 My name is João Rafael and I'm a software engineer. I studied at
 the [University of Coimbra](http://uc.pt), where I had both my BSc and MSc. As my
 master thesis I developed [EVE](https://github.com/jprafael/eve),
-a dead-lock free, event-oriented programming language with parallelism in mind.
-
-My current objective is to find my way out of Europe for a few months - I'm a big fan
-of both nature and backpacking. I like to meet people of different cultures, taste new
-food and see the marvelous wounders all arround us.
+a deadlock-free, event-oriented programming language with parallelism in mind.
 
 This is My Work
 ---------------
@@ -35,3 +31,13 @@ of implementation and improvement of machine learning algorithms and data scienc
 for big data.
 
 You can have a look at my [CV](/assets/cv.pdf) for more detailed information.
+
+This are My Hobbies
+------------------
+
+I'm a big fan of both nature and backpacking and I'm currently trying to find my way out of Europe.
+I like to meet people of different cultures, taste new food and see the marvelous wounders
+all arround us (even some that no one else takes a second look at).
+
+I've done two [eurorails](//eurail.com), camped in the wild and hitchhiked
+for over a month. I can **strongly** recomend you do these at least once! 
