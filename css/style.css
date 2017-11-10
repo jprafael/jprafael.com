@@ -47,7 +47,6 @@ aside {
     padding-top: 10%;
     padding-bottom: 10%;
 
-    min-width: 200px;
     max-width: 50%;
 }
 
@@ -63,14 +62,14 @@ aside {
     }
 }
 
-@media all and (min-width: 700px) and (max-width: 1080px) and (orientation: landscape) {
+@media all and (min-width: 561px) and (max-width: 1080px) {
     p, h2, span {
         font-size: 1.8vw;
         line-height: 2.3vw;
     }
 }
 
-@media all and (min-width: 700px) and (orientation: landscape) {
+@media all and (min-width: 561px) {
     .container {
         height: 100%;
     }
@@ -80,8 +79,7 @@ aside {
     }
 }
 
-@media all and (max-width: 700px),
-       all and (orientation: portrait) {
+@media all and (max-width: 560px) {
     section, aside {
         float: none;
         width: auto;
@@ -99,6 +97,7 @@ aside {
 
 h2 {
     font-size: 150%;
+    line-height: 150%;
     padding-bottom: 1%;
 }
 
@@ -108,6 +107,7 @@ h2 {
 
 h2 .bold {
     font-size: 100%;
+    line-height: 100%;
     font-weight: bold;
 }
 
