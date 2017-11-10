@@ -17,7 +17,7 @@ section {
 }
 
 p, h2 {
-    font-family: serif;
+    font-family: Georgia, serif;
 }
 
 a {
@@ -58,14 +58,14 @@ aside {
 @media all and (min-width: 1080px) and (orientation: landscape) {
     p, h2, span {
         font-size: calc(1080px * 1.8 * 0.01); 
-        line-height: calc(1080px * 2.3 * 0.01);
+        line-height: calc(1080px * 2.5 * 0.01);
     }
 }
 
 @media all and (min-width: 561px) and (max-width: 1080px) {
     p, h2, span {
         font-size: 1.8vw;
-        line-height: 2.3vw;
+        line-height: 2.5vw;
     }
 }
 
