@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+}
+
+section {
+    float: right;
+    width: 65%;
+
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+}
+
+p, h2 {
+    font-family: serif;
+}
+
+a {
+    color: #d44110;
+    text-decoration: none;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+aside {
+    float: left;
+    width: 35%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face {
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+    min-width: 200px;
+    max-width: 50%;
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+
+@media all and (min-width: 1081px) {
+    p, h2, span {
+        font-size: calc(1080px * 1.8 * 0.01); 
+        line-height: calc(1080px * 2.3 * 0.01);
+    }
+}
+
+@media all and (min-width: 701px) and (max-width: 1080px) {
+    p, h2, span {
+        font-size: 1.8vw;
+        line-height: 2.3vw;
+    }
+}
+
+@media all and (min-width: 701px) {
+    .container {
+        height: 100%;
+    }
+    
+    section, aside {
+        height: 100%;
+    }
+}
+
+@media all and (max-width: 700px) {
+    section, aside {
+        float: none;
+        width: auto;
+    }
+
+    p, h2, span {
+        font-size: 2.5vw;
+        line-height: 3.0vw;
+    }
+
+    .text {
+        padding: 0 3% 3% 3%;
+    }
+}
+
+h2 {
+    font-size: 150%;
+    padding-bottom: 1%;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+h2 .bold {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+
+.icons {
+    padding-top: 1%;
+    font-size: 200%;
+}
