@@ -54,23 +54,23 @@ aside {
 @viewport {
     width: device-width;
     zoom: 1;
-}
+}    
 
-@media all and (min-width: 1081px) {
+@media all and (min-width: 1080px) and (orientation: landscape) {
     p, h2, span {
         font-size: calc(1080px * 1.8 * 0.01); 
         line-height: calc(1080px * 2.3 * 0.01);
     }
 }
 
-@media all and (min-width: 701px) and (max-width: 1080px) {
+@media all and (min-width: 700px) and (max-width: 1080px) and (orientation: landscape) {
     p, h2, span {
         font-size: 1.8vw;
         line-height: 2.3vw;
     }
 }
 
-@media all and (min-width: 701px) {
+@media all and (min-width: 700px) and (orientation: landscape) {
     .container {
         height: 100%;
     }
@@ -80,7 +80,8 @@ aside {
     }
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 700px),
+       all and (orientation: portrait) {
     section, aside {
         float: none;
         width: auto;
