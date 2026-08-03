@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>João Rafael</title>
+    <title>João Rafael | CV</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fontelo-embedded.css">
@@ -9,22 +9,20 @@
     <meta charset="utf-8">
     <meta name="author" content="João Rafael">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV-style portfolio for João Rafael, data scientist and machine learning engineer.">
   </head>
 
   <body>
-    <div class="container">
-      <aside>
-        <img src="image/jprafael.png" alt="João Rafael" class="face"/>
-      </aside>
-
-      <section>
-        <div class="text">
-          <h2><span class="bold">Hello!</span><br/> My name is João Rafael.</h2>
-          <p>I'm a Software Engineer.</p>
-          <p>My focus is on performance, security and correctness in distributed systems.<br/>Software that I've worked on handles over <a href="https://www.forbes.com/sites/tomgroenfeldt/2016/02/16/feedzai-stops-financial-fraud-with-machine-learning/" title="Forbes: Feedzai Stops Financial Fraud With Machine Learning">$1B in payments daily</a>.</p>
-              
-          <p>I'm passionate when working on machine learning and everything deeply algorithmic.<br/>Currently looking into smart contract development and auditing on <a href="https://ethereum.org/" title="ethereum">ethereum</a>.</p>
-              
+    <div class="page">
+      <header class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Applied Data Science • Machine Learning • Distributed Systems</p>
+          <h1>João Rafael</h1>
+          <p class="lead">
+            I build production-grade machine learning and data systems that connect research, engineering, and business value.</p>
+          <div class="hero__meta">
+            <span>Porto, Portugal</span>
+          </div>
           <div class="icons">
             <a href="mailto:me@jprafael.com" title="email"><i class="icon-mail"></i></a>
             <a href="https://github.com/jprafael" title="github"><i class="icon-github-circled"></i></a>
@@ -32,16 +30,194 @@
             <a href="https://www.linkedin.com/in/jpmrafael/" title="linkedin"><i class="icon-linkedin"></i></a>
           </div>
         </div>
-      </section>
+        <div class="hero__photo">
+          <img src="image/jprafael.png" alt="João Rafael" class="face" />
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="section">
+          <h2>Profile</h2>
+          <p>
+            João is an applied data science specialist who works across the full stack of AI delivery: problem framing,
+            research, model development, engineering, and deployment. His background spans fintech, telco, analytics,
+            and research-driven product work, with a strong focus on building reliable systems at scale.
+          </p>
+        </section>
+
+        <section class="section section--grid">
+          <article class="card">
+            <h3>Core strengths</h3>
+            <ul>
+              <li>Machine learning and AI systems</li>
+              <li>Distributed data processing</li>
+              <li>End-to-end ownership of data products</li>
+              <li>Recommendation and forecasting products</li>
+              <li>Technical leadership and mentoring</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Selected impact</h3>
+            <ul>
+              <li>Worked on systems handling over $1B in payments daily</li>
+              <li>Led ML initiatives for telecom and fintech clients</li>
+              <li>Built products that improved business KPIs in live operations</li>
+              <li>Delivered research-backed solutions with production deployment</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="section">
+          <h2>Experience</h2>
+
+          <article class="entry">
+            <div class="entry__header">
+              <h3>Founder</h3>
+              <span>2018 – Present</span>
+            </div>
+            <p class="entry__org">Upper Delta</p>
+            <p>
+              Founded a specialized consultancy focused on data science and machine learning, leading projects in telecom,
+              finance, analytics, and research-driven delivery while mentoring teams and shaping strategy for clients.
+            </p>
+            <div class="entry__projects">
+              <h4>Key projects</h4>
+              <ul>
+                <li><strong>Product recommendation system for a large telecom.</strong> Built a content-based recommendation engine from scratch to support upsell strategy, combining product usage, billing, customer interaction, demographics, and pricing signals. The system was validated through A/B tests, producing a statistically significant uplift in average revenue per user.</li>
+                <li><strong>Quality of service degradation prediction for a telecom operator.</strong> Built a large-scale monitoring and anomaly detection solution that processed technical network metrics and semi-structured logs across millions of devices. The system identified customers likely to experience service issues and helped the engineering team act on root causes.</li>
+                <li><strong>Rooftop obstacle detection for a solar energy company.</strong> Created a computer vision workflow using satellite imagery and building-footprint records to identify suitable rooftop sites for solar panel installation, outperforming individual human labels on the initial milestone.</li>
+                <li><strong>Sales forecasting for a beverage company.</strong> Implemented a forecasting system that projected SKU-level sales for the next three months at each point of sale, enriching data with external variables such as weather, demographics, and events. The output was delivered via a geographic dashboard for business users.</li>
+                <li><strong>Data lake implementation in AWS.</strong> Designed and maintained a data lake supporting bulk and streaming ingestion from brokers, product usage logs, SaaS systems, and APIs. The platform supported analytics, operations, product, and AI workloads at scale.</li>
+                <li><strong>Automated valuation model for real estate.</strong> Developed, deployed, and monitored an internal valuation system for over 140 million US properties, integrating tax, census, permit, and satellite data with scenario simulation for renovation advisory.</li>
+                <li><strong>Quantitative stock movement prediction and automated trading infrastructure.</strong> Built a predictive modeling platform combining technical indicators, proprietary datasets, financial statements, earnings reports, and third-party market feeds, with automated ingestion and data-lake support for structured and unstructured financial data.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry__header">
+              <h3>Co-founder</h3>
+              <span>2020 – 2024</span>
+            </div>
+            <p class="entry__org">Powercall</p>
+            <p>
+              Co-built an AI-driven call center optimization product, covering infrastructure, ETL pipelines, ML models,
+              dashboards, and client delivery from pilot to production.
+            </p>
+            <div class="entry__projects">
+              <h4>Key projects</h4>
+              <ul>
+                <li><strong>Call center optimization platform.</strong> Led the technical implementation of the entire product, from data collection and model development to infrastructure and reporting. The system used customer history and context to identify the best contact time and order of outreach, improving client reach and campaign efficiency.</li>
+                <li><strong>Pilot deployment and client engagement.</strong> Worked directly with clients to configure pilots, discuss integration requirements, demonstrate product value, and finalize commercial terms. The work balanced technical implementation with product strategy and stakeholder communication.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry__header">
+              <h3>Senior Software Engineer</h3>
+              <span>2014 – 2017</span>
+            </div>
+            <p class="entry__org">Feedzai</p>
+            <p>
+              Contributed to fraud detection systems for large banks and payment processors, improving ML algorithms,
+              leading architecture decisions, and supervising engineering quality across teams.
+            </p>
+            <div class="entry__projects">
+              <h4>Key projects</h4>
+              <ul>
+                <li><strong>Real-time fraud detection service.</strong> Helped implement a fraud scoring platform for a major US payment processor that handled over $1 billion in payments daily. The solution combined model development, architecture design, and delivery of APIs and explanatory outputs for fraud decisions.</li>
+                <li><strong>Data science tooling and model improvement.</strong> Built and shipped research-driven data science tools that became part of the core product, improving state-of-the-art machine learning algorithms for all clients and supporting production fraud detection workflows.</li>
+                <li><strong>Multi-datacenter, multi-tenant platform delivery.</strong> Served as a technical lead for a multimillion-dollar project with strict latency and availability requirements. The role included architecture definition, cross-team coordination, documentation, quality assurance, and mentoring of engineering team members.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry__header">
+              <h3>Researcher</h3>
+              <span>2011 – 2013</span>
+            </div>
+            <p class="entry__org">University of Coimbra</p>
+            <p>
+              Designed and implemented a parallel, event-driven programming language and related runtime systems,
+              publishing work in high-impact parallel computing venues.
+            </p>
+            <div class="entry__projects">
+              <h4>Key projects</h4>
+              <ul>
+                <li><strong>Deadlock-free parallel programming language.</strong> Designed and implemented a novel programming model for parallel, event-driven computation with deadlock-free semantics, targeting correctness and concurrency reasoning.</li>
+                <li><strong>Automatic parallelization framework.</strong> Built a framework that analyzed Java applications for data dependencies at a granular level and scheduled execution with a work-stealing algorithm to improve performance on parallel hardware.</li>
+                <li><strong>Scientific publications.</strong> Co-authored papers in the International Journal of Parallel Programming and the Euro-Par conference, advancing work on parallel and distributed systems.</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+
+        <section class="section">
+          <h2>Skills</h2>
+          <article class="entry entry--skills">
+            <div class="entry__header">
+              <h3>Artificial Intelligence</h3>
+            </div>
+            <ul>
+              <li><strong>Techniques:</strong> Machine Learning, Deep Learning, Deep Reinforcement Learning, Neural Networks, Transformers, Large Language Models (LLMs), Generative AI, Prompt Engineering, Recommendation Systems, Computer Vision, Anomaly Detection, Forecasting, Bayesian Statistics, Optimization</li>
+              <li><strong>Tools:</strong> PyTorch, scikit-learn, XGBoost, pandas, Polars</li>
+              <li><strong>Use cases:</strong> Fraud Prevention, Predictive Analytics, Predictive Modeling, Counterfactual Analysis, Sentiment Analysis, Algorithmic Trading, Financial Modeling, Quantitative Finance, Customer Lifetime Value, Recommendation Systems</li>
+            </ul>
+          </article>
+          <article class="entry entry--skills">
+            <div class="entry__header">
+              <h3>Cloud & Data Platforms</h3>
+            </div>
+            <ul>
+              <li><strong>AWS:</strong> SageMaker, S3, Athena, Lambda, RDS, Aurora, EC2, ECS, MWAA, Glue</li>
+              <li><strong>Data platforms:</strong> Apache Iceberg, Presto, Trino, Data Lakes, Spark, PySpark, PostgreSQL, DuckDB</li>
+            </ul>
+          </article>
+          <article class="entry entry--skills">
+            <div class="entry__header">
+              <h3>Programming & Engineering</h3>
+            </div>
+            <ul>
+              <li><strong>Languages:</strong> Python, Rust, SQL, Java, Scala, JavaScript, R</li>
+              <li><strong>Systems:</strong> Distributed Computing, High-performance Computing (HPC), Parallel Programming, Compilers, APIs, Software Development, Software Project Management, Continuous Integration (CI), Continuous Delivery (CD)</li>
+              <li><strong>Infrastructure:</strong> Linux, Docker, CI/CD, Terraform, Pulumi</li>
+            </ul>
+          </article>
+          <article class="entry entry--skills">
+            <div class="entry__header">
+              <h3>Business & Industry</h3>
+            </div>
+            <ul>
+              <li><strong>Fintech & Payments:</strong> Real-time fraud detection, transaction scoring, payment processing, risk control</li>
+              <li><strong>Telecom & Connectivity:</strong> Product recommendation, customer upsell, churn prediction, call-center optimization, network quality-of-service monitoring</li>
+              <li><strong>Customer Operations:</strong> Outreach optimization, campaign reach improvement, contact-time prediction, customer lifecycle decisioning</li>
+              <li><strong>Retail:</strong> Sales forecasting, SKU-level demand planning, data-driven business dashboards</li>
+              <li><strong>Real Estate & Proptech:</strong> Automated valuation modeling, property-level scenario analysis, renovation advisory</li>
+              <li><strong>Financial Markets:</strong> Equity and market-data analytics, quantitative signal generation, automated trading infrastructure</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="section">
+          <h2>Personal Interests</h2>
+          <article class="entry entry--skills">
+            <ul>
+              <li>Molecular Biology, DNA Sequencing, Plasmid Engineering, Transfection</li>
+              <li>Boardgames, strategy, and systems thinking</li>
+            </ul>
+          </article>
+        </section>
+
+      </main>
     </div>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53097832-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-53097832-1');
     </script>
   </body>
