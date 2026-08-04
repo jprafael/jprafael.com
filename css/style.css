@@ -188,6 +188,24 @@ body {
   border-radius: 10px;
 }
 
+.entry__methodology {
+  margin-top: 18px;
+}
+
+.entry__methodology h4 {
+  margin: 0 0 8px;
+  color: #12395d;
+}
+
+.entry__methodology ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.entry__methodology li + li {
+  margin-top: 10px;
+}
+
 .entry--skills {
   padding: 8px 0 0;
 }
